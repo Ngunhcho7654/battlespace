@@ -76,4 +76,5 @@ public class PlayerMoving : MonoBehaviour {
         borders.maxX = mainCamera.ViewportToWorldPoint(Vector2.right).x - borders.maxXOffset;
         borders.maxY = mainCamera.ViewportToWorldPoint(Vector2.up).y - borders.maxYOffset;
     }
+    
 }
