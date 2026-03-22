@@ -14,7 +14,7 @@ public class Blinking : MonoBehaviour
 
     void Update()
     {
-        // Bật/Tắt hiển thị liên tục để tạo hiệu ứng nhấp nháy
+        // Bật/Tắt hiển thị liên tục để tạo hiệu ứng nhấp nháy.
         spriteRenderer.enabled = !spriteRenderer.enabled;
     }
 }
